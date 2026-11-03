@@ -77,3 +77,19 @@ docker images
 ```
 
 `hello-world` 컨테이너와 이미지가 목록에 표시되는 것을 확인했다.
+## 3단계: 컨테이너와 이미지 확인
+
+### 실행 명령어
+
+```powershell
+docker ps -a
+docker images
+```
+
+### 실행 결과
+
+`hello-world` 컨테이너와 `hello-world` 이미지가 목록에 표시되는 것을 확인했다.
+
+### 결과
+
+Docker가 정상적으로 컨테이너를 생성하고 이미지를 내려받아 관리할 수 있음을 확인했다.
