@@ -93,3 +93,15 @@ docker images
 ### 결과
 
 Docker가 정상적으로 컨테이너를 생성하고 이미지를 내려받아 관리할 수 있음을 확인했다.
+## 4단계: 정리
+
+### 실행 명령어
+
+```powershell
+docker rm 컨테이너ID
+docker rmi hello-world
+```
+
+### 결과
+
+실습에 사용한 컨테이너와 이미지를 삭제하여 환경을 정리했다.
