@@ -53,3 +53,19 @@ Docker가 `hello-world` 이미지를 내려받은 뒤 컨테이너를 실행했�
 
 ### 결과
 Docker 컨테이너가 정상적으로 실행되는 것을 확인했다.
+## 2단계: Docker 실행 테스트
+
+### 실행 명령어
+
+```powershell
+docker run hello-world
+```
+
+### 실행 결과
+
+`Hello from Docker!` 메시지가 출력되었고, Docker가 `hello-world` 이미지를 내려받아 컨테이너를 정상적으로 실행한 것을 확인했다.
+
+### 결과
+
+Docker 설치 및 실행 환경이 정상적으로 동작함을 확인했다.
+
