@@ -69,3 +69,11 @@ docker run hello-world
 
 Docker 설치 및 실행 환경이 정상적으로 동작함을 확인했다.
 
+## 3단계: 실행 결과 확인
+
+```powershell
+docker ps -a
+docker images
+```
+
+`hello-world` 컨테이너와 이미지가 목록에 표시되는 것을 확인했다.
