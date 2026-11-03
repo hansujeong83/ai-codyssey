@@ -40,3 +40,16 @@ docker info
 
 ### 결과
 `Virtual Machine Platform` 기능을 활성화한 뒤 재부팅하여 Docker가 정상 실행되는 것을 확인했다.
+## 2단계: Docker 실행 테스트
+
+### 실행 명령어
+
+```powershell
+docker run hello-world
+```
+
+### 실행 결과
+Docker가 `hello-world` 이미지를 내려받은 뒤 컨테이너를 실행했고, `Hello from Docker!` 메시지가 출력되었다.
+
+### 결과
+Docker 컨테이너가 정상적으로 실행되는 것을 확인했다.
